@@ -8,8 +8,8 @@ $(function(){
 
 	'use strict';
 
-	$(".loader").delay(50).fadeOut("slow");
-	$("#overlayer").delay(50).fadeOut("slow");	
+	$(".loader").delay(10).fadeOut("slow");
+	$("#overlayer").delay(10).fadeOut("slow");	
 
 	var siteMenuClone = function() {
 
@@ -489,7 +489,7 @@ var portfolioItemClick = function() {
 
 		setTimeout(function(){
 			loadPortfolioSinglePage(id, href);
-		}, 100);
+		}, 6000);
 
 		e.preventDefault();
 
