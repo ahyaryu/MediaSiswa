@@ -525,7 +525,7 @@ var loadPortfolioSinglePage = function(id, href) {
 		type: 'GET',
 		success: function(html) {
 
-			TweenMax.to('.portfolio-wrapper', 1, { marginTop: '50px', autoAlpha: 0, visibility: 'visible', onComplete() {
+			TweenMax.to('.portfolio-wrapper', 1, { marginTop: '50px', autoAlpha: 0, visibility: 'hidden', onComplete() {
 				TweenMax.set('.portfolio-wrapper', { height: 0 });
 			} })
 

@@ -638,8 +638,8 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   border-radius: 4px; }
   .item a {
     display: block;
-    overflow: visible;
-    position: absolute;
+    overflow: hidden;
+    position: relative;
     border-radius: 4px; }
     .item a img {
       position: relative;
@@ -1235,7 +1235,7 @@ figure.dotted-bg {
     bottom: 20px;
     left: 20px;
     right: 20px; }
-    .portfolio-item .portfolio-item-content h3, .portfolio-item .portfolio-item-content a, .portfolio-item .portfolio-item-content p, .blog-item .portfolio-item-content h3, .blog-item .portfolio-item-content h3, .blog-item .portfolio-item-content p {
+    .portfolio-item .portfolio-item-content h3, .portfolio-item .portfolio-item-content p, .blog-item .portfolio-item-content h3, .blog-item .portfolio-item-content p {
       color: #ffffff;
       margin: 0;
       padding: 0; }
